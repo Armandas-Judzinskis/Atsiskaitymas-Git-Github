@@ -72,6 +72,15 @@ main {
             text-align: center;
             justify-content: center;
         }
+
+        > p {
+           a{
+            text-decoration: underline dotted white;
+            color: white;
+    
+                
+            }
+        }
     }
 
         .btnCenter{
