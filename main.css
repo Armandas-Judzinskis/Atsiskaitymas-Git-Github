@@ -4,17 +4,42 @@ body{
     
 }
 
+main {
+    background-image: url(./resources/bg.jpg);
+    background-size: cover;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(31, 31, 31, 0.625);
+        z-index: -1;
+
+}
+
+
+
 #turinys{
-    border-top: 20px white;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    gap: 30px;
     
     justify-content: center;
     align-items: center;
-    background-image: url('./resources/bg.jpg');
+    background-image: url('./resources/bg.jpg') ;
     background-size: cover;
     background-position: center;
     color: white;
+
+    .rotated-hr{
+    transform: rotate(90deg);
+    width: 76px; 
+    height: 0; 
+    border: 1px solid rgb(255, 255, 255); 
+    }
 
     .gemRegular{
     display: flex;
@@ -36,9 +61,34 @@ body{
     }
 
     .metaText{
+    width: 70%;
+    padding: 20px; 
+    border-top: 2px solid rgb(255, 255, 255); 
+    border-bottom: 2px solid rgb(255, 255, 255); 
+    
+
 
         >h1{
             text-align: center;
+            justify-content: center;
+        }
+    }
+
+        .btnCenter{
+            display: flex;
+            flex-direction: column;
+
+            >button{
+                max-width: 300px;
+                background-color: transparent;
+                border: 1px solid white;
+                color: white;
+                width: 100vh;
+                height: 40px;
+                border-radius: 10px;
+                cursor: pointer;
+
+            }
         }
     }
 }
