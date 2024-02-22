@@ -92,7 +92,6 @@ body{
 
         >h1{
             position:relative;
-            z-index: 10;
             text-align: center;
             justify-content: center;
         }
@@ -100,7 +99,14 @@ body{
         > p a{
             text-decoration: underline dotted white;
             color: white;
+            position:relative;
+            
+            
             }
+        > p a:hover {
+                color: rgb(148, 209, 238);
+                
+            }   
 
             
     }
@@ -120,6 +126,9 @@ body{
                 cursor: pointer;
                 z-index: 50;
 
+            }
+            >button:hover{
+                background-color:  rgba(152, 152, 152, 0.381);
             }
         }
     }
