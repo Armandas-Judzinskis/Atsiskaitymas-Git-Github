@@ -1,16 +1,24 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     margin: 0px;
     padding: 0px;
     font-family: "Source Sans Pro", sans-serif;
+    background-image: url(./resources/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 850px;
     
     
 }
 
     main {
-        background-image: url(./resources/bg.jpg);
-        background-size: cover;
-        background-position: center;
-        height: 850px;
+        
+
+        
         
         
         &::before {
@@ -117,6 +125,7 @@ body{
             justify-content: center;
 
             >button{
+                text-transform: uppercase;
                 max-width: 300px;
                 background-color: transparent;
                 border: 1px solid white;
@@ -133,3 +142,56 @@ body{
         }
     }
 }
+
+
+  .displayNone {
+    display: none;
+  }
+  
+  .diplayFlex {
+    display: flex;
+  }
+
+  .tabDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(14, 14, 14, 0.673);
+    position: relative;
+    color: white;
+    
+    img {
+      width: 70%;
+    }
+  
+    >p {
+      width: 70%;
+    }
+
+    >i {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        font-weight: 900;
+        font-size: 65px;
+      }
+  
+    h1 {
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-size: 45px;
+      font-weight: 500;
+
+      border-bottom: 1px solid white;
+      align-self: self-start;
+      margin-left: 10%;
+      
+    }
+  
+
+  
+  
+  }
