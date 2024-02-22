@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Source Sans Pro", sans-serif;
+    
+    
+}
+
+    main {
+        background-image: url(./resources/bg.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 850px;
+        
+        
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(42, 42, 42, 0.5);
+            height: 850px;
+        }
+
+
+
+
+
+
+#turinys{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+
+    .rotated-hr{
+    transform: rotate(90deg);
+    width: 47px; 
+    height: 0; 
+    border: 1px solid rgb(255, 255, 255); 
+    }
+
+    .linijos{
+        width: 70%;
+        padding: 20px; 
+        border-top: 2px solid rgb(255, 255, 255); 
+        z-index: 8;
+    }
+
+    .linijos1{
+        width: 70%;
+        padding: 20px; 
+        border-bottom: 2px solid rgb(255, 255, 255); 
+        z-index: 9;
+    }
+
+    .gemRegular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px; 
+    border: 2px solid rgb(255, 255, 255); 
+    border-radius: 50%;
+    margin-top: 70px;
+    z-index:10;
+
+        >img {
+
+            width: 40px;
+            height: 40px;
+            
+    
+        }
+    }
+
+
+
+    .metaText{
+    width: 70%;
+    padding: 20px; 
+
+    
+
+
+
+        >h1{
+            position:relative;
+            z-index: 10;
+            text-align: center;
+            justify-content: center;
+        }
+
+        > p a{
+            text-decoration: underline dotted white;
+            color: white;
+            }
+
+            
+    }
+
+        .btnCenter{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            >button{
+                max-width: 300px;
+                background-color: transparent;
+                border: 1px solid white;
+                color: white;
+                width: 100vh;
+                height: 40px;
+                cursor: pointer;
+                z-index: 50;
+
+            }
+        }
+    }
+}
