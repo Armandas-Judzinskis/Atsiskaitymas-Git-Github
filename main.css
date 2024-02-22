@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#turinys{
+    border-top: 20px white;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    background-image: url('./resources/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+    .gemRegular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px; 
+    border: 2px solid rgb(255, 255, 255); 
+    border-radius: 50%;
+    margin-top: 70px;
+
+        >img {
+
+            width: 30px;
+            height: 30px;
+            
+    
+        }
+    }
+
+    .metaText{
+
+        >h1{
+            text-align: center;
+        }
+    }
+}
