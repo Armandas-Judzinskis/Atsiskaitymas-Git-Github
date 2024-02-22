@@ -6,15 +6,19 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: "Source Sans Pro", sans-serif;
+    background-image: url(./resources/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 850px;
     
     
 }
 
     main {
-        background-image: url(./resources/bg.jpg);
-        background-size: cover;
-        background-position: center;
-        height: 850px;
+        
+
+        
         
         
         &::before {
@@ -121,6 +125,7 @@ body{
             justify-content: center;
 
             >button{
+                text-transform: uppercase;
                 max-width: 300px;
                 background-color: transparent;
                 border: 1px solid white;
@@ -151,7 +156,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: rgba(14, 14, 14, 0.673);
     position: relative;
     color: white;
@@ -173,7 +180,7 @@ body{
       }
   
     h1 {
-    text-transform: uppercase;
+      text-transform: uppercase;
       letter-spacing: 5px;
       font-size: 45px;
       font-weight: 500;
