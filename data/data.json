@@ -3,7 +3,7 @@
       {
         "id": "1",
         "name": "Intro",
-        "source": "../resources/tab-1.mp4",
+        "source": "./resources/tab-1.mp4",
         "content": [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, cumque! Reprehenderit fugiat, ea dolorum non minima atque provident temporibus porro expedita, eos reiciendis rerum veniam obcaecati ad placeat illum animi perferendis. Quod, adipisci? Blanditiis, corrupti ab. Modi dignissimos accusantium totam!",
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eius, obcaecati vitae assumenda quae, sapiente pariatur ratione tempore ducimus non quos quibusdam quidem necessitatibus nostrum tempora accusamus, velit voluptates? Veniam deleniti consequuntur eligendi cupiditate vero suscipit corrupti fugit quisquam explicabo possimus! Nihil, vel tempora! Incidunt illum praesentium neque ea eaque tenetur unde mollitia, dignissimos aliquid cumque vero accusantium."
@@ -12,7 +12,7 @@
       {
         "id": "2",
         "name": "Work",
-        "source": "../resources/tab-2.jpg",
+        "source": "./resources/tab-2.jpg",
         "content": [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, cumque! Reprehenderit fugiat, ea dolorum non minima atque provident temporibus porro expedita, eos reiciendis rerum veniam obcaecati ad placeat illum animi perferendis. Quod, adipisci? Blanditiis, corrupti ab. Modi dignissimos accusantium totam!",
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eius, obcaecati vitae assumenda quae, sapiente pariatur ratione tempore ducimus non quos quibusdam quidem necessitatibus nostrum tempora accusamus, velit voluptates? Veniam deleniti consequuntur eligendi cupiditate vero suscipit corrupti fugit quisquam explicabo possimus! Nihil, vel tempora! Incidunt illum praesentium neque ea eaque tenetur unde mollitia, dignissimos aliquid cumque vero accusantium."
@@ -21,7 +21,7 @@
       {
         "id": "3",
         "name": "About",
-        "source": "../resources/tab-3.jpg",
+        "source": "./resources/tab-3.jpg",
         "content": [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, cumque! Reprehenderit fugiat, ea dolorum non minima atque provident temporibus porro expedita, eos reiciendis rerum veniam obcaecati ad placeat illum animi perferendis. Quod, adipisci? Blanditiis, corrupti ab. Modi dignissimos accusantium totam!",
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eius, obcaecati vitae assumenda quae, sapiente pariatur ratione tempore ducimus non quos quibusdam quidem necessitatibus nostrum tempora accusamus, velit voluptates? Veniam deleniti consequuntur eligendi cupiditate vero suscipit corrupti fugit quisquam explicabo possimus! Nihil, vel tempora! Incidunt illum praesentium neque ea eaque tenetur unde mollitia, dignissimos aliquid cumque vero accusantium."
@@ -30,7 +30,7 @@
       {
         "id": "4",
         "name": "Contact",
-        "source": "../resources/tab-4.jpg",
+        "source": "./resources/tab-4.jpg",
         "content": [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, cumque! Reprehenderit fugiat, ea dolorum non minima atque provident temporibus porro expedita, eos reiciendis rerum veniam obcaecati ad placeat illum animi perferendis. Quod, adipisci? Blanditiis, corrupti ab. Modi dignissimos accusantium totam!",
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eius, obcaecati vitae assumenda quae, sapiente pariatur ratione tempore ducimus non quos quibusdam quidem necessitatibus nostrum tempora accusamus, velit voluptates? Veniam deleniti consequuntur eligendi cupiditate vero suscipit corrupti fugit quisquam explicabo possimus! Nihil, vel tempora! Incidunt illum praesentium neque ea eaque tenetur unde mollitia, dignissimos aliquid cumque vero accusantium."
