@@ -3,37 +3,41 @@ body{
     padding: 0px;
     font-family: "Source Sans Pro", sans-serif;
     
+    
 }
 
-main {
-    background-image: url(./resources/bg.jpg);
-    background-size: cover;
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(31, 31, 31, 0.625);
-        z-index: -1;
+    main {
+        background-image: url(./resources/bg.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 1090px;
+        
+        
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(42, 42, 42, 0.5);
+            height: 1090px;
+        }
 
-}
+
+
 
 
 
 #turinys{
-    height: 700px;
+
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    
     justify-content: center;
     align-items: center;
-    background-image: url('./resources/bg.jpg') ;
-    background-size: cover;
-    background-position: center;
+    
     color: white;
 
     .rotated-hr{
@@ -41,6 +45,20 @@ main {
     width: 76px; 
     height: 0; 
     border: 1px solid rgb(255, 255, 255); 
+    }
+
+    .linijos{
+        width: 70%;
+        padding: 20px; 
+        border-top: 2px solid rgb(255, 255, 255); 
+        z-index: 8;
+    }
+
+    .linijos1{
+        width: 70%;
+        padding: 20px; 
+        border-bottom: 2px solid rgb(255, 255, 255); 
+        z-index: 9;
     }
 
     .gemRegular{
@@ -52,6 +70,7 @@ main {
     border: 2px solid rgb(255, 255, 255); 
     border-radius: 50%;
     margin-top: 70px;
+    z-index:10;
 
         >img {
 
@@ -62,15 +81,19 @@ main {
         }
     }
 
+
+
     .metaText{
     width: 70%;
     padding: 20px; 
-    border-top: 2px solid rgb(255, 255, 255); 
-    border-bottom: 2px solid rgb(255, 255, 255); 
+
     
 
 
+
         >h1{
+            position:relative;
+            z-index: 10;
             text-align: center;
             justify-content: center;
         }
@@ -95,8 +118,8 @@ main {
                 color: white;
                 width: 100vh;
                 height: 40px;
-                border-radius: 10px;
                 cursor: pointer;
+                z-index: 50;
 
             }
         }
