@@ -23,6 +23,7 @@ main {
 
 
 #turinys{
+    height: 700px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -74,19 +75,18 @@ main {
             justify-content: center;
         }
 
-        > p {
-           a{
+        > p a{
             text-decoration: underline dotted white;
             color: white;
-    
-                
             }
-        }
+
+            
     }
 
         .btnCenter{
             display: flex;
-            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
 
             >button{
                 max-width: 300px;
